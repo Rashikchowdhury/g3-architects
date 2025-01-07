@@ -253,6 +253,20 @@ main {
     /* align-items: center; */
 }
 
+/* footer section styles */
+
+footer {
+    width: 75%;
+    margin: auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
 /* responsive devices style */
 
 /* mobile devices */
@@ -313,7 +327,7 @@ main {
 
     /* facts container styles */
 
-    .facts-container{
+    .facts-container {
         margin-bottom: 100px;
     }
 
@@ -356,6 +370,12 @@ main {
         width: 154px;
     }
 
+/* footer section styles  */
+
+    footer{
+        width: 85%;
+        padding: 10px;
+    }
 }
 
 /* medium or tablet devices */
