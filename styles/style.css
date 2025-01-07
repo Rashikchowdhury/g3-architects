@@ -21,6 +21,10 @@ body {
     cursor: pointer;
 }
 
+.pri-txt-color {
+    color: #727272;
+}
+
 
 /* header styles applied here */
 
@@ -139,6 +143,50 @@ main {
     margin-bottom: 32px;
 }
 
+
+/* banner three styles */
+
+.banner-three-container {
+    display: flex;
+    gap: 145px;
+    margin-bottom: 130px;
+    align-items: center;
+}
+
+.banner-three-content {
+    width: 590px;
+    /* background-color: #131313; */
+}
+
+.banner-three-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.banner-three-box {
+    width: 586px;
+    /* height: 171px; */
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.b3-box-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-three-image-container img {
+    width: 100%;
+}
+
 /* responsive devices style */
 
 /* mobile devices */
@@ -151,7 +199,8 @@ main {
         padding: 10px 15px;
     }
 
-    .nav, .banner-two {
+    .nav,
+    .banner-two {
         flex-direction: column;
     }
 
@@ -163,20 +212,37 @@ main {
         font-size: 2rem;
     }
 
-    main{
+    main {
         width: 85%;
     }
 
-    .banner-two{
+    .banner-two {
         gap: 10px;
+        margin-bottom: 80px;
     }
 
-    .banner-two-img-container{
+    .banner-two-img-container {
         grid-template-columns: 1fr;
     }
 
-    .banner-two-content{
+    .banner-two-content {
         width: auto;
+    }
+
+    /* banner three styles  */
+
+    .banner-three-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .banner-three-content {
+        width: auto;
+    }
+
+    .banner-three-box{
+        width: auto;
+        padding: 10px;
     }
 }
 
@@ -205,7 +271,7 @@ main {
         margin: auto;
     }
 
-    main{
+    main {
         width: 85%;
     }
 }
