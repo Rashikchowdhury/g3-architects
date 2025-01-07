@@ -245,6 +245,7 @@ main {
     width: 542px;
     margin: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .sponsors-img-container {
@@ -348,7 +349,6 @@ footer {
 
     .sponsors-info {
         width: auto;
-        text-align: center;
     }
 
     .sponsors-img-container {
