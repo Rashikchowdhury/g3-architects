@@ -112,7 +112,7 @@ main {
 
 .banner-two-title {
     color: #727272;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 500;
 }
 
@@ -151,7 +151,7 @@ main {
         padding: 10px 15px;
     }
 
-    .nav {
+    .nav, .banner-two {
         flex-direction: column;
     }
 
@@ -161,6 +161,22 @@ main {
 
     .banner-title {
         font-size: 2rem;
+    }
+
+    main{
+        width: 85%;
+    }
+
+    .banner-two{
+        gap: 10px;
+    }
+
+    .banner-two-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .banner-two-content{
+        width: auto;
     }
 }
 
@@ -187,5 +203,9 @@ main {
     .banner-content {
         width: 70vw;
         margin: auto;
+    }
+
+    main{
+        width: 85%;
     }
 }
