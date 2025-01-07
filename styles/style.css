@@ -187,6 +187,45 @@ main {
     width: 100%;
 }
 
+/* facts container styles */
+
+.facts-container{
+    margin-bottom: 170px;
+}
+
+.facts-header {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px   ;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+}
+
+.stats {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom: 0%;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
 /* responsive devices style */
 
 /* mobile devices */
@@ -240,10 +279,24 @@ main {
         width: auto;
     }
 
-    .banner-three-box{
+    .banner-three-box {
         width: auto;
         /* padding: 10px; */
     }
+
+    /* facts container styles */
+
+    .facts-card-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    
+
 }
 
 /* medium or tablet devices */
@@ -273,5 +326,29 @@ main {
 
     main {
         width: 85%;
+    }
+
+    .banner-three-container{
+        flex-direction: column;
+        margin: auto;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+    .banner-three-content{
+        width: 80%;
+        margin: auto;
+    }
+
+    .banner-three-box{
+        width: auto;
+    }
+
+    .facts-card-container{
+        margin-top: 50px;
+    }
+
+    .card{
+        padding: 10px;
     }
 }
