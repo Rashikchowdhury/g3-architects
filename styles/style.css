@@ -87,6 +87,7 @@ nav li a {
 
 /* responsive devices style */
 
+/* mobile devices */
 @media screen and (max-width: 425px) {
     header{
         padding: 10px;
@@ -102,5 +103,22 @@ nav li a {
 
     .banner-title{
         font-size: 2rem;
+    }
+}
+
+/* medium or tablet devices */
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+    header{
+        padding: 0px 50px 20px 50px;
+
+    }
+
+    .pri-btn{
+        /* padding: 10px 15px; */
+    }
+
+    .nav{
+        flex-direction: column;
     }
 }
