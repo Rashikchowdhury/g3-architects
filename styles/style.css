@@ -27,6 +27,7 @@ body {
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 0px 240px 50px 240px;
+    margin-bottom: 90px;
 }
 
 .nav {
@@ -85,27 +86,80 @@ nav li a {
     width: 100%;
 }
 
+main {
+    width: 70%;
+    margin: auto;
+}
+
+.banner-two {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.banner-two-img-container {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-two-img-container img {
+    width: 100%;
+}
+
+/* banner two title styles */
+
+.banner-two-title {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.of-our-text {
+    color: #131313;
+    font-weight: 700;
+}
+
+.features-text {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.banner-two-content {
+    width: 540px;
+    height: 330px;
+}
+
+.banner-two-content-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
 /* responsive devices style */
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 10px;
     }
 
-    .pri-btn{
+    .pri-btn {
         padding: 10px 15px;
     }
 
-    .nav{
+    .nav {
         flex-direction: column;
     }
 
-    nav li{
+    nav li {
         margin-right: 16px;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 2rem;
     }
 }
@@ -113,24 +167,24 @@ nav li a {
 /* medium or tablet devices */
 
 @media screen and (min-width: 576px) and (max-width: 1080px) {
-    header{
+    header {
         padding: 0px 50px 20px 50px;
 
     }
 
-    .pri-btn{
+    .pri-btn {
         /* padding: 10px 15px; */
     }
 
-    .nav{
+    .nav {
         flex-direction: column;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 3rem;
     }
 
-    .banner-content{
+    .banner-content {
         width: 70vw;
         margin: auto;
     }
