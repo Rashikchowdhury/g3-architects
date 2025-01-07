@@ -101,6 +101,10 @@ nav li a {
         flex-direction: column;
     }
 
+    nav li{
+        margin-right: 16px;
+    }
+
     .banner-title{
         font-size: 2rem;
     }
